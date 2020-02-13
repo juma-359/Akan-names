@@ -6,6 +6,14 @@
     display: inline-block;
     text-transform: uppercase;
     transition: all 3s ease-in-out;
+    width: 100%;
+    overflow: hidden;
+}
+.Akan-title{
+    margin-top: 100px;
+    color: khaki;
+    text-transform: upercase;
+    transition: all 8s ease-in-out;
 }
 .Akan-title h1 {
     font-size: 60px;
@@ -20,17 +28,17 @@
 }
 form{
     margin-top: 40px;
-    transition: all 3s ease-in-out;
-    margin-left: 30%;
+    transition: all 8s ease-in-out;
+    margin-left: 25%;
 }
 .fill {
-    width: 700px;
+    width: 600px;
     border: none;
     outline: none;
     border-bottom: 2px solid blue;
     color: lightseagreen;
     font-size: 20px;
-    margin-top: 14px;
+    margin-top: 16px;
 }
 input{
     height: 55px;
@@ -41,20 +49,20 @@ form .submit {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 3px;
-    height: 50px;
+    height: 45px;
     margin-top: 20px;
 }
-/* .title {
+.title {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-} */
-/* .title p {
+}
+.title p {
     color: green;
     font-size: 100px;
     text-transform: uppercase;
-} */
+}
 .button{
     position: absolute;
     top: 62%;
@@ -64,5 +72,6 @@ form .submit {
 .btn{
     border: 1px solid burlywood;
     padding: 5px 20px;
+    text-decoration: none;
     transition: 1s ease;
 }
