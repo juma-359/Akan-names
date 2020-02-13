@@ -1,4 +1,7 @@
-
+body{
+    margin: 0;
+    color: orange;
+}
 #Akan {
     margin-top: 700px;
     color: aqua;
