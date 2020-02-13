@@ -1,0 +1,10 @@
+.begining{
+    color: aqua;
+    font-size: 70px;
+    border: 10px solid greenyellow;
+}
+.change{
+    color: orange;
+    border: 10px solid rgb(192, 37, 115);
+    font-size: 70px;
+}
