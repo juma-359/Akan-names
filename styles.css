@@ -2,58 +2,77 @@ body{
     margin: 0;
     color: orange;
 }
-#Akan {
-    margin-top: 700px;
+#akan {
+    height: 700px;
     color: aqua;
+    margin-top: 50px;
     background-size: cover;
     display: inline-block;
     text-transform: uppercase;
-    transition: all 3s ease-in-out;
-    width: 100%;
+    /* transition: all 3s ease-in-out; */
+    width: 90%;
     overflow: hidden;
+    text-decoration: none;
 }
-.Akan-title{
+.akan-title{
     margin-top: 100px;
-    color: khaki;
-    text-transform: upercase;
+    color: burlywood;
+    text-transform: none;
     transition: all 8s ease-in-out;
+    text-align: center;
 }
-.Akan-title h1 {
-    font-size: 60px;
+.akan-title h1 {
+    font-size: 40px;
     line-height: 15px;
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: 30%;
+    text-transform: uppercase;
+    text-decoration: underline darkgoldenrod;
+    /* text-transform: uppercase; */
+    /* text-align: center; */
 }
-.Akan-title p {
-    font-size: 20px;
+.akan-title p {
+    font-size: 25px;
     margin-top: 15px;
-    margin-left: 40px;
+    margin-left: 30px;
+
+    /* text-align: center; */
 }
 form{
     margin-top: 40px;
     transition: all 8s ease-in-out;
-    margin-left: 25%;
+    margin-left: 15%;
+    /* align-items: center; */
+    /* text-decoration: none; */
+    /* width: 100px; */
+
 }
-.fill {
+.form-control {
     width: 600px;
     border: none;
     outline: none;
+    background-color: transparent;
     border-bottom: 2px solid blue;
     color: lightseagreen;
     font-size: 20px;
-    margin-top: 16px;
+    margin-bottom: 16px;
+    /* text-decoration: none; */
 }
 input{
     height: 55px;
+    /* text-align: center; */
+    /* width: 120px; */
 }
 form .submit {
     background-color: midnightblue;
-    color: springgreen;
+    color: blueviolet;
+    border-color:transparent;
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 3px;
     height: 45px;
     margin-top: 20px;
+    /* text-decoration: none; */
 }
 .title {
     position: absolute;
@@ -62,19 +81,22 @@ form .submit {
     transform: translate(-50%, -50%);
 }
 .title p {
-    color: green;
+    color: orchid;
     font-size: 90px;
-    /* text-transform: uppercase; */
+    text-transform: capitalize;
 }
 .button{
     position: absolute;
     top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* text-decoration: none; */
 }
 .btn{
     border: 1px solid burlywood;
     padding: 10px 30px;
+    color: lightskyblue;
     text-decoration: none;
     transition: 1s ease;
+    /* text-decoration: none; */
 }
