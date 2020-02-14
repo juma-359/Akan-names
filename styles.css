@@ -9,7 +9,7 @@ body{
     background-size: cover;
     display: inline-block;
     text-transform: uppercase;
-    /* transition: all 3s ease-in-out; */
+    transition: all 3s ease-in-out;
     width: 90%;
     overflow: hidden;
     text-decoration: none;
@@ -33,6 +33,7 @@ body{
 }
 .akan-title p {
     font-size: 25px;
+    color: turquoise;
     margin-top: 15px;
     margin-left: 30px;
 
@@ -40,6 +41,7 @@ body{
 }
 form{
     margin-top: 40px;
+    color: limegreen;
     transition: all 8s ease-in-out;
     margin-left: 15%;
     /* align-items: center; */
@@ -50,7 +52,7 @@ form{
 .form-control {
     width: 600px;
     border: none;
-    outline: none;
+    outline: steelblue;
     background-color: transparent;
     border-bottom: 2px solid blue;
     color: lightseagreen;
@@ -58,14 +60,27 @@ form{
     margin-bottom: 16px;
     /* text-decoration: none; */
 }
-input{
-    height: 55px;
-    /* text-align: center; */
-    /* width: 120px; */
+.form-control  date{
+    width: 600px;
+    border: none;
+    outline: steelblue;
+    background-color: transparent;
+    border-bottom: 2px solid blue;
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 16px;
+    /* text-decoration: none; */
 }
+/* input{
+    height: 55px;
+    text-align: center;
+    width: 120px;
+} */
 form .submit {
     background-color: midnightblue;
-    color: blueviolet;
+    color: honeydew;
+    width: 50%;
+    border-radius: 50px;
     border-color:transparent;
     font-size: 20px;
     font-weight: bold;

@@ -3,6 +3,7 @@
 <head>
     <title>akan-name</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div id="akan">
@@ -11,11 +12,11 @@
         <p>Did you know the day you were born?</p>
   <div class="contact-form">
     <form id="contact-form" methode="post" action="">
-        <input name="name" class="form-control" placeholder="Name"><br>
-        <input date="Date" class="form-control" placeholder="Date of birth"><br>
-        Male: <input class="gender" type="radio" name="gender" value="male">
-        female: <input class="gender" type="radio" name="gender" value="female">
-        Male: <input class="gender" type="radio" name="gender" value="male"><br>
+        <input name="name" type="name" class="form-control" placeholder="Name"><br>
+        <input date="Date" type="date" class="form-control" min="1920/1/1" placeholder="Date of birth"><br>
+ <label> Male:</labe><input class="gender" type="radio" name="gender" value="male">
+        female: <input class="gender" type="radio" name="gender" value="female"><br>
+        <!-- Other: <input class="gender" type="radio" name="gender" value="Other"><br> -->
         <input type="submit" class="form-control submit" value="SEND">
     </form>
 </div>
