@@ -30,3 +30,20 @@ function getGender(){
 var maleNames =["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+function myFunction(){
+    var formControl = parseInt(document.getElementByClass("form-control").value)
+    var gender = getGender();
+    var formControl = new Date(year + "/" + month + "/" + day);
+    var dayBorn = date.getDay();
+    var validateGender = (gender !== "male" && gender !== "female");
+if gender === female {
+    akanName = femaleNames[dayBorn]
+    alert("" + "" + dayOfTheWeek[dayBorn] + "")
+}
+if gender === male {
+    akanName = maleNames[dayBorn]
+    alert("" + "" + dayOfTheWeek[dayBorn] + "")
+}
+}
+
