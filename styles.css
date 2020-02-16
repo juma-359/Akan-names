@@ -60,7 +60,7 @@ form{
     margin-bottom: 16px;
     /* text-decoration: none; */
 }
-.form-control  date{
+/* .form-control  date{
     width: 600px;
     border: none;
     outline: steelblue;
@@ -69,8 +69,8 @@ form{
     color: grey;
     font-size: 20px;
     margin-bottom: 16px;
-    /* text-decoration: none; */
-}
+    text-decoration: none;
+} */
 /* input{
     height: 55px;
     text-align: center;
