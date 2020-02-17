@@ -1,28 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>akan-name</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AKAN NAME GENERATOR</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
-    <div id="akan">
-    <div class="akan-title">
-        <h1>Know your Akan Name</h1>
-        <p>Did you know you can get to know your Akan name according to the day were born?</p>
-        <!-- <p>Let's go find it.</p> -->
-  <div class="contact-form">
-    <form id="contact-form" methode="post" action="">
-        <!-- <input name="name" type="name" class="form-control" placeholder="Name"><br> -->
-        <input name="Date" type="date" class="form-control" min="1920/1/1" ><br>
- <label> Male:</label><input class="gender" type="radio" name="gender" value="male">
-        female: <input class="gender" type="radio" name="gender" value="female"><br>
-        <input type="submit" onclick="myFunction()" class="form-control submit" value="SEND">
-    </form>
-</div>
-</div>
-</div>
+  <div class="container">
+    
+    <div>
+      <div class="form row">
+        <div class="col-4">
+        </div>
+        <form>
+          <div class="pick">
+            <div>
+              <label>Year</label><br>
+              <input type="text" id="year" placeholder="Year.." minlength="4" maxlength="4" step="1" required><br>
+            </div>
+            <div>
+              <label>Month</label><br>
+              <input type="text" id="month" placeholder="Month.." minlength="1" maxlength="2" required><br>
+            </div>
+            <div>
+              <label>Day</label><br>
+              <input type="text" id="day" placeholder="Day.." required><br>
+            </div>
+            <div>
+              <label>Gender</label><br>
+              <input type="radio" id="gender" name="gender" value="male">Male<br>
+              <input type="radio" id="gender" name="gender" value="female">Female<br>
+              <input type="submit" onclick="myFunction()" value="Submit">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="table-bordered">
+      <table class="table table-condensed">
+        <thead>
+          <tr>
+            <th><marquee behaviour="diaspora" width="100px" height="px">Days of the week.</marquee></th>
+            <th><marquee behaviour="scroll" width="100px" height="px">MaleNames..</marquee></th>
+            <th><marquee behaviour="scroll" width="100px" height="px">FemaleNames..</marquee></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sunday</td>
+            <td>Kwasi</td>
+            <td>Akosua</td>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td>Kwadwo</td>
+            <td>Adwoa</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>Kwabena</td>
+            <td>Abenaa</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Kwako</td>
+            <td>Akua</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Yaw</td>
+            <td>Yah</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Kofi</td>
+            <td>Afua</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Kwame</td>
+            <td>Ama</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  <script src="./js/script.js"></script>
+  <footer></footer>
 </body>
-<script src="./js/script.js"></script>
 </html>
